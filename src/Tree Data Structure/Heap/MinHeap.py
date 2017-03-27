@@ -15,7 +15,7 @@ class MinHeap(object):
 
     def __init__(self):
         self.currentSize=0
-        self.HeapList=[0]
+        self.heapList=[0]
         
     def insert(self,k):
         self.heapList.append(k)
@@ -77,8 +77,4 @@ class MinHeap(object):
             heapsort.append(top)
             i-=1
         alist=[x for x in heapsort]
-            
-bh=MinHeap()
-lst=[0,4,1,2,4,6,7,3]
-bh.HeapSort(lst)
-print lst       
+                  

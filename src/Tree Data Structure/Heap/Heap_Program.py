@@ -3,7 +3,7 @@ Created on Feb 9, 2017
 
 @author: Rahil
 '''
-#Building MinHeap and maintaining MAX-HEAP property of heap
+#Building MaxHeap and maintaining MAX-HEAP property of heap
 
 def Parent(i):
     return i>>1
