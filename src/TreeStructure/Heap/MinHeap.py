@@ -66,7 +66,8 @@ class MinHeap(object):
         while (i > 0):
             self.percDown(i)
             i = i - 1
-     
+        print self.heapList
+        
     def HeapSort(self,alist):
         heapsort=[]
         self.buildHeap(alist)
@@ -76,5 +77,6 @@ class MinHeap(object):
             print top
             heapsort.append(top)
             i-=1
-        alist=[x for x in heapsort]
                   
+bh = MinHeap()
+bh.buildHeap([9,5,6,2,3])
