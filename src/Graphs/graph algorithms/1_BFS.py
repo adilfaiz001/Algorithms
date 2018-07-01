@@ -1,7 +1,7 @@
 '''
-Created on Jul 8, 2017
+Created on Jul 2, 2018
 
-@author: Adil
+@author: adil
 '''
 from graphs import graph
 def BFS(G,s):
@@ -13,7 +13,7 @@ def BFS(G,s):
     while frontier:
         next=[]
         for u in frontier:
-            for v in G.getVertexAdj(u):
+            for v in G.vertList(u).getAdjList():
                 if v not in level:
                     level[v]=i
                     parent[v]=u
@@ -21,4 +21,3 @@ def BFS(G,s):
         frontier=next 
         i+1
       
-        
