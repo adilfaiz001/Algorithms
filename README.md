@@ -1,6 +1,6 @@
-# Algorithms, Data Structure and Python
+# Algorithms, Data Structure
 
-__Learning data structure and algorithms and implementing problems in python. These problems will be taken from the online competitive platforms like hackerearth, hackerrank, codechef and others too. It is a progressive repository to track and clssify all solved problems in categories__
+__Learning data structure and algorithms and implementing problems. These problems will be taken from the online competitive platforms like hackerearth, hackerrank, codechef and others too. It is a progressive repository to track and clssify all solved problems in categories__
 
 
 #### File Naming Convention under a category
